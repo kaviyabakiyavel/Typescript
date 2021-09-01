@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "typescript course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaviyabakiyavel/Typescript.git"
+  },
+  "author": "kaviya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaviyabakiyavel/Typescript/issues"
+  },
+  "homepage": "https://github.com/kaviyabakiyavel/Typescript#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
