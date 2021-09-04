@@ -4,11 +4,13 @@
 // //eg : ID,name,employee - but few shares different details Department : IT/HR/Accounting
 
 
-
+// //course 5 : we can also override methods or properties from ur base class 
+// //protected key word is we can use the property from other class as well
+// //can able to access outside but it can able to access inside of classes that extend the base class
 // class Department{
 //     // private id : string;
 //     // private name : string;
-//     private employees : string[] = []; //private can only access inside class object
+//     protected employees : string[] = []; //private can only access inside class object
 //     constructor(private readonly id : string , public name : string){
 //         // this.id = id;
 //         // this.name = n;
@@ -47,6 +49,12 @@
 //    printReports(){
 //      console.log(this.reports);
 //    }
+//    addEmployee(name:string){
+//     if(name === 'Max'){
+//         return;
+//     }
+//     this.employees.push(name);
+// }
 // }
 
 // //const accounting = new Department('Accounting');
@@ -66,3 +74,4 @@
 // Accounting.addReport('Something went wrong...');
 // Accounting.printReports();
 // console.log("Accounting",Accounting)
+
